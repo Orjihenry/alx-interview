@@ -7,7 +7,7 @@
 def canUnlockAll(boxes):
     '''
         method that determines if all the boxes can be opened
-    ''''
+    '''
     n = len(boxes)
     keys = boxes[0]
     Locked_box = [False] + [True] * (n - 1)
